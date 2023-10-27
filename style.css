@@ -1,0 +1,72 @@
+table{
+    border: 5px solid black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  img{
+    width: 200px;
+    height: 200px;
+    border-radius: 40px;
+  }
+  
+  /* Style the buttons and add spacing */
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style the container for stored items */
+  #storedItems {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Style the visit count and add spacing */
+  #visitCount {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  /* Style the "Remove count" and "Clear all" buttons */
+  #removeCount, #clearAll {
+    margin-top: 10px;
+  }
+  
+  /* Style the color preference buttons */
+  #colorPreferenceButtons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Style the "Red", "Green", and "Blue" buttons */
+  #colorPreferenceButtons button {
+    background-color: transparent;
+    border: 2px solid #3498db;
+    color: #3498db;
+  }
+  
+  #colorPreferenceButtons button:hover {
+    background-color: #3498db;
+    color: #fff;
+  }
+  
+th, td {
+  border: solid rgb(95, 65, 65);
+  padding: 5px;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
